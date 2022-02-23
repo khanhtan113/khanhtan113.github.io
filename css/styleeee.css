@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    margin: 0;
+    background-color: darkblue;
+  
+}
+
+.lala{
+    background-color: skyblue;
+}
+.lalala {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+  background-color: white;
+}
+.lalala>li{
+  display: inline-block;
+}
+.lalala li a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+.lalala a:hover{
+  background-color: sandybrown;
+  color: white;
+}
+.columnleft{ 
+    float: left;
+    width: 100%;
+    background-color: white;
+}
+.boximg{
+  position: relative;
+  height: 300px;
+  width: 100%;
+  padding: 10px;
+  background-color: white;
+}
+.card{
+  background-color: white;
+  padding: 5px;
+  margin-top: 5px;
+}
+.img{
+  position: relative;
+  margin: 12px;
+  float: left;
+  width:15%;
+  height: 300px;
+  bottom: 10px;
+}
+.img>img{
+  width: 100%;
+
+}
+
+.img>p{
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%);
+}
+.footer{
+    padding: 10px;
+    text-align: center;
+    background: gray;
+    margin-top: 10px;
+}
